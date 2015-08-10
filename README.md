@@ -1,2 +1,2 @@
-# programming-assignments
+# Assignments
 Programming assignments from Coursera
