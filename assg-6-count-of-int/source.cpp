@@ -34,4 +34,6 @@ int main() {
   cout << one << endl;
   cout << five << endl;
   cout << ten << endl;
+
+  return 0;
 }

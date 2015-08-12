@@ -23,4 +23,6 @@ int main() {
   for (int i = 0; i < n; i++) {
     cout << popcount(data[i]) << endl;
   }
+
+  return 0;
 }

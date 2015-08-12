@@ -11,14 +11,6 @@ int main() {
 
   cin >> n;
 
-  if (n <= 1) {
-    n = 2;
-  }
-
-  if (n >= 100) {
-    n = 99;
-  }
-
   int data[n];
 
   for (i = 0; i < n; i++) {
@@ -27,7 +19,7 @@ int main() {
 
   half = (n % 2) ? (n - 1) / 2 : n / 2;
 
-  for (i = 0; i <= half; i++) {
+  for (i = 0; i < half; i++) {
     j = n - i - 1;
 
     tmp = data[j];
