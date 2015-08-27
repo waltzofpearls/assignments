@@ -13,6 +13,10 @@ int main() {
 
   result = n - ceil((float)y / (float)x);
 
+  if (result < 0) {
+    result = 0;
+  }
+
   cout << result << endl;
 
   return 0;
